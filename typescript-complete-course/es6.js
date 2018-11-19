@@ -46,6 +46,49 @@ var countdown = function (start) {
 };
 countdown();
 /**
+ * Rest and Spread Operator
+ */
+console.log("REST & SPREAD");
+var numbers = [1, 10, 99, -5];
+console.log(Math.max(33, 99, 10, -3));
+console.log(Math.max.apply(Math, numbers));
+function makeArray(name) {
+    var args = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        args[_i - 1] = arguments[_i];
+    }
+    return args;
+}
+console.log(makeArray("Max", 1, 2, 6));
+/**
+ * Destructing Array
+ */
+console.log('`````````````Destructing Array````````````````````');
+var myhobbies = ['Sports', 'Coding'];
+var hoobies1 = myhobbies[0], hoobies2 = myhobbies[1];
+console.log(hoobies1);
+console.log(hoobies2);
+/**
+ * Destructing Object
+ */
+console.log('-----------------Destructing Object----------------');
+var userData1 = {
+    userName: "Max",
+    age: 27
+};
+//  const { userName , age } = userData1
+var myName1 = userData1.userName, myAge1 = userData1.age;
+console.log(myName1);
+console.log(myAge1);
+/**
+ * Template Literal
+ */
+// Template Literals
+var userName = "Max";
+var greeting = "This is a heading!\nI'm " + userName + ".\nThis is cool!";
+console.log(greeting);
+//Iterators, Symbols, Generators
+/**
  * Filtering Unique and Duplicate Value
  */
 console.log('-------------Filter--------------');
