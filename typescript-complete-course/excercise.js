@@ -11,4 +11,3 @@ var mySelf = {
     hobbies: ['Sports', 'Cooking']
 };
 mySelf.bankAccount.deposit(3000);
-console.log(mySelf);

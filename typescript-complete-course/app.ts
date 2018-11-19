@@ -119,7 +119,6 @@ function infiniteLoop(): never {
  canAlsoBeNull = null;
  let canbeAny = null;
  canbeAny = 12;
- console.log(canbeAny);
  
 
 /**
@@ -133,4 +132,18 @@ function infiniteLoop(): never {
      console.log('It is a number');
  }
 
- 
+ /**
+  * Type assertions
+  * type assertion is like a type cast in other languages
+  */
+
+//  Type assertions have two forms. One is the “angle-bracket” syntax:
+
+ let someValue: any = "uday";
+
+ let strLength: number = (<string>someValue).length;
+
+//  And the other is the as-syntax:
+let someValue1: any = "uday";
+
+let strLength1: number = (someValue1 as string).length; 

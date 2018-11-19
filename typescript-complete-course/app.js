@@ -94,7 +94,6 @@ var canAlsoBeNull;
 canAlsoBeNull = null;
 var canbeAny = null;
 canbeAny = 12;
-console.log(canbeAny);
 /**
  * Check Types
  * Checking for Types during Runtime
@@ -103,3 +102,13 @@ var finalValue = "A String";
 if (typeof finalValue === 'number') {
     console.log('It is a number');
 }
+/**
+ * Type assertions
+ * type assertion is like a type cast in other languages
+ */
+//  Type assertions have two forms. One is the “angle-bracket” syntax:
+var someValue = "uday";
+var strLength = someValue.length;
+//  And the other is the as-syntax:
+var someValue1 = "uday";
+var strLength1 = someValue1.length;
