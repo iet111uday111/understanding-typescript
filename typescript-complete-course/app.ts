@@ -147,3 +147,5 @@ function infiniteLoop(): never {
 let someValue1: any = "uday";
 
 let strLength1: number = (someValue1 as string).length; 
+
+
