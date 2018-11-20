@@ -289,3 +289,6 @@ Please take a quick look at the [contribution guidelines](/contributing.md) firs
 #### What is Typescript.
 ![Alt text](./Screenshots/Screenshot1.png?raw=true "Optional Title")
 
+#### Namespaces Vs Modules.
+![Alt text](./Screenshots/Screenshot2.png?raw=true "Optional Title")
+
