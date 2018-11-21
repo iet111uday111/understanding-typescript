@@ -13,6 +13,9 @@
     <script>
         // set our baseURL reference path
         SystemJS.config({
+            map: {
+                "jQuery": "node_modules/jquery/dist/jquery.min.js"
+            },
             baseURL: '/',
             defaultJSExtensions: true
         });

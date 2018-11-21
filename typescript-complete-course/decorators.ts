@@ -95,14 +95,20 @@ console.log(projectDecorator);
  * Parameter Decorator
  */
 
-class Course {
+function printInfo(target: any , methodName: string, paramIndex:number){
+    console.log("Target: ", target);
+    console.log("methodName: ", methodName);
+    console.log("paramIndex: ", paramIndex);
+}
+
+class CourseDecorator {
     name: string;
 
     constructor(name: string) {
         this.name = name;
     }
 
-    printStudentNumbers(mode: string, printAll: boolean) {
+    printStudentNumbers(mode: string, @printInfo printAll: boolean) {
         if (printAll) {
             console.log(10000);
         } else {
@@ -110,3 +116,8 @@ class Course {
         }
     }
 }
+
+const courseDecorator = new CourseDecorator("Super Course");
+courseDecorator.printStudentNumbers("anything", true);
+courseDecorator.printStudentNumbers("anything", false);
+
