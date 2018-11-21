@@ -1,4 +1,3 @@
-"use strict";
 var myName = 'Max';
 var myAge = 27;
 function controlMe(isTrue, somethingElse) {

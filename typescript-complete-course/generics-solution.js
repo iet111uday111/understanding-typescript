@@ -1,4 +1,3 @@
-"use strict";
 var MyMap = /** @class */ (function () {
     function MyMap() {
         this.map = {};

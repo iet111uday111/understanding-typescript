@@ -1,4 +1,3 @@
-"use strict";
 var bankAccount = {
     money: 200,
     deposit: function (value) {

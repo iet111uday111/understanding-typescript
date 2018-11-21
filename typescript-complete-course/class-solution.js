@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 1 - How was your TypeScript Class?
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {

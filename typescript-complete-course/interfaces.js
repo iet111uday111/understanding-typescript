@@ -1,4 +1,3 @@
-"use strict";
 function Igreet(person) {
     console.log("Hello, " + person.firstName);
 }

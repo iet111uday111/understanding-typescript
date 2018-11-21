@@ -1,4 +1,3 @@
-"use strict";
 // Exercise 1 - How was your TypeScript Class?
 /*
 function Car(name) {

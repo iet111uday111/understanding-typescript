@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a generic Map (an Object like an Array, but instead with Key-Value Pairs). The key will always be a string.
 
