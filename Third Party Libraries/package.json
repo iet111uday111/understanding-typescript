@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "lite-server",
+    "build":"gulp"
   },
   "keywords": [
     "typescript",
@@ -14,6 +15,8 @@
   "author": "Maximilian Schwarzmueller",
   "license": "MIT",
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^5.0.0-alpha.3",
     "lite-server": "^2.2.2"
   },
   "dependencies": {
